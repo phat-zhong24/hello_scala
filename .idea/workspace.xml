@@ -22,7 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df8f75e8-1b26-46b0-ba83-70dc0b8d925e" name="Default Changelist" comment="study Scala in day 1" />
+    <list default="true" id="df8f75e8-1b26-46b0-ba83-70dc0b8d925e" name="Default Changelist" comment="study Scala in day 1">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +35,7 @@
     <option name="done" value="true" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -151,7 +154,7 @@
       <workItem from="1636527906179" duration="410000" />
       <workItem from="1636528703644" duration="15645000" />
       <workItem from="1636547502778" duration="231000" />
-      <workItem from="1636547955677" duration="1276000" />
+      <workItem from="1636547955677" duration="2388000" />
     </task>
     <task id="LOCAL-00001" summary="study Scala in day 1">
       <created>1636547175860</created>
@@ -205,40 +208,48 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="737" y="410" key="DetectedRootsChooserDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636528741954" />
-    <state x="3188" y="394" width="554" height="533" key="FileChooserDialogImpl" timestamp="1636548165741">
+    <state x="3188" y="394" width="554" height="533" key="FileChooserDialogImpl" timestamp="1636549475607">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="1272" y="394" width="554" height="533" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636528740154" />
-    <state x="3188" y="394" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636548165741" />
-    <state width="1877" height="238" key="GridCell.Tab.0.bottom" timestamp="1636548914631">
+    <state x="3188" y="394" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636549475607" />
+    <state x="2748" y="437" width="264" height="280" key="Github.ShareDialog" timestamp="1636549687355">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2748" y="437" width="264" height="280" key="Github.ShareDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636549687355" />
+    <state x="2724" y="245" key="Github.UntrackedFilesDialog" timestamp="1636549701653">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2724" y="245" key="Github.UntrackedFilesDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636549701653" />
+    <state width="1860" height="210" key="GridCell.Tab.0.bottom" timestamp="1636549341952">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1892" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636528317786" />
-    <state width="1877" height="238" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636548914631" />
-    <state width="1877" height="238" key="GridCell.Tab.0.center" timestamp="1636548914630">
+    <state width="1860" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636549341952" />
+    <state width="1860" height="210" key="GridCell.Tab.0.center" timestamp="1636549341952">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1892" height="243" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636528317786" />
-    <state width="1877" height="238" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636548914630" />
-    <state width="1877" height="238" key="GridCell.Tab.0.left" timestamp="1636548914630">
+    <state width="1860" height="210" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636549341952" />
+    <state width="1860" height="210" key="GridCell.Tab.0.left" timestamp="1636549341952">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1892" height="243" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636528317786" />
-    <state width="1877" height="238" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636548914630" />
-    <state width="1877" height="238" key="GridCell.Tab.0.right" timestamp="1636548914630">
+    <state width="1860" height="210" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636549341952" />
+    <state width="1860" height="210" key="GridCell.Tab.0.right" timestamp="1636549341952">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1892" height="243" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636528317786" />
-    <state width="1877" height="238" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636548914630" />
+    <state width="1860" height="210" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636549341952" />
     <state x="2400" y="180" width="1135" height="708" key="SettingsEditor" timestamp="1636549231673">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="142" y="158" width="1135" height="708" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636528727997" />
     <state x="2400" y="180" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636549231673" />
-    <state x="2472" y="273" key="Vcs.Push.Dialog.v2" timestamp="1636547194280">
+    <state x="2472" y="273" key="Vcs.Push.Dialog.v2" timestamp="1636549736009">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2472" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636547194280" />
+    <state x="2472" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636549736009" />
     <state x="408" y="403" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1636524024987">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
