@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="df8f75e8-1b26-46b0-ba83-70dc0b8d925e" name="Default Changelist" comment="study Scala in day 1" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:\software\devSoftware\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="20i6i3YaNxZwpAsYkEW9iM2DsDY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="scala_project_settings_configurable.last_selected_tab_index" value="7" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Application.Test05_DataType">
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="chapter01.HelloWorld" />
+      <module name="hello_scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test02_String" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="chapter02.Test02_String" />
+      <module name="hello_scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test05_DataType" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="chapter02.Test05_DataType" />
+      <module name="hello_scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test05_DataType" />
+        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.Test02_String" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ScalaProjectSettings">
+    <option name="projectViewHighlighting" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df8f75e8-1b26-46b0-ba83-70dc0b8d925e" name="Default Changelist" comment="" />
+      <created>1636515185773</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636515185773</updated>
+      <workItem from="1636515187184" duration="112000" />
+      <workItem from="1636515319240" duration="10772000" />
+      <workItem from="1636527906179" duration="410000" />
+      <workItem from="1636528703644" duration="15645000" />
+      <workItem from="1636547502778" duration="231000" />
+      <workItem from="1636547955677" duration="1276000" />
+    </task>
+    <task id="LOCAL-00001" summary="study Scala in day 1">
+      <created>1636547175860</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636547175860</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="study Scala in day 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="study Scala in day 1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2360" y="114" key="#Project_Structure" timestamp="1636547726469">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="440" y="114" key="#Project_Structure/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636527980001" />
+    <state x="2360" y="114" key="#Project_Structure/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636547726469" />
+    <state x="2334" y="195" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636549068243">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2334" y="195" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636549068243" />
+    <state x="2623" y="454" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1636547523367">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2623" y="454" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636547523367" />
+    <state x="2498" y="218" width="1003" height="644" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1636548352521">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="578" y="218" width="1003" height="644" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636518279433" />
+    <state x="2498" y="218" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636548352521" />
+    <state x="737" y="410" key="DetectedRootsChooserDialog" timestamp="1636528741954">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="737" y="410" key="DetectedRootsChooserDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636528741954" />
+    <state x="3188" y="394" width="554" height="533" key="FileChooserDialogImpl" timestamp="1636548165741">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1272" y="394" width="554" height="533" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636528740154" />
+    <state x="3188" y="394" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636548165741" />
+    <state width="1877" height="238" key="GridCell.Tab.0.bottom" timestamp="1636548914631">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1892" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636528317786" />
+    <state width="1877" height="238" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636548914631" />
+    <state width="1877" height="238" key="GridCell.Tab.0.center" timestamp="1636548914630">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1892" height="243" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636528317786" />
+    <state width="1877" height="238" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636548914630" />
+    <state width="1877" height="238" key="GridCell.Tab.0.left" timestamp="1636548914630">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1892" height="243" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636528317786" />
+    <state width="1877" height="238" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636548914630" />
+    <state width="1877" height="238" key="GridCell.Tab.0.right" timestamp="1636548914630">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1892" height="243" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636528317786" />
+    <state width="1877" height="238" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636548914630" />
+    <state x="2400" y="180" width="1135" height="708" key="SettingsEditor" timestamp="1636549231673">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="142" y="158" width="1135" height="708" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636528727997" />
+    <state x="2400" y="180" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636549231673" />
+    <state x="2472" y="273" key="Vcs.Push.Dialog.v2" timestamp="1636547194280">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2472" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636547194280" />
+    <state x="408" y="403" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1636524024987">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="408" y="403" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636524024987" />
+    <state x="334" y="200" key="new project wizard" timestamp="1636515994039">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="334" y="200" key="new project wizard/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636515994039" />
+    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1636532684244">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636532684244" />
+  </component>
+</project>
