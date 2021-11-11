@@ -76,5 +76,21 @@ object Test05_DataType {
     // 强制类型转换
     val int = 1.33.toInt
     println(int)
+
+   //  val number = "12.9".toInt  // 非法操作
+    val number = "12.9".toFloat.toInt  // 得先把String类型数值强转成Double或Float类型，再强转成Int类型
+    println(number)
+
+
+    // 数据类型向下强转，有可能造成精度丢失
+    val int1 = 130;
+    val byte1 = int1.toByte
+    println(byte1)  // 得到-126
+    // 原因：32位Int类型 转换成 8位Byte类型，导致数据位范围溢出（原本低8位的数据位变成了7个，溢出的一个数据位成为了符号位）
+    // 130的Int类型32位二进制原码：0000 0000 0000 0000 0000 0000 1000 0010
+    //                     补码：0000 0000 0000 0000 0000 0000 1000 0010
+
+    //截取最后一个字节，得到8位Byte类型补码：1000 0010
+    //                         对应原码：1111 1110  => 即是 -126
   }
 }
