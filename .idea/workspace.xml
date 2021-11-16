@@ -22,9 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df8f75e8-1b26-46b0-ba83-70dc0b8d925e" name="Default Changelist" comment="study Scala in day 2">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter03/Test01_Operator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/Test01_IfElse.scala" afterDir="false" />
+    <list default="true" id="df8f75e8-1b26-46b0-ba83-70dc0b8d925e" name="Default Changelist" comment="study Scala in day 3">
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/Test02_ForLoop.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/Test03_WhileLoop.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/Test04_Break.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +65,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -78,20 +81,7 @@
     <property name="scala_project_settings_configurable.last_selected_tab_index" value="7" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Test01_IfElse">
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="chapter01.HelloWorld" />
-      <module name="hello_scala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test04_Break">
     <configuration name="Test01_IfElse" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="src.main.scala.chapter04.Test01_IfElse" />
       <module name="hello_scala" />
@@ -118,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test02_String" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="chapter02.Test02_String" />
+    <configuration name="Test02_ForLoop" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.scala.chapter04.Test02_ForLoop" />
       <module name="hello_scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter02.*" />
+          <option name="PATTERN" value="src.main.scala.chapter04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test05_DataType" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="chapter02.Test05_DataType" />
+    <configuration name="Test04_Break" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.scala.chapter04.Test04_Break" />
       <module name="hello_scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter02.*" />
+          <option name="PATTERN" value="src.main.scala.chapter04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,26 +134,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="Test05_WhileLoop" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.scala.chapter04.Test05_WhileLoop" />
+      <module name="hello_scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.main.scala.chapter04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test04_Break" />
+        <item itemvalue="Application.Test05_WhileLoop" />
+        <item itemvalue="Application.Test02_ForLoop" />
         <item itemvalue="Application.Test01_IfElse" />
         <item itemvalue="Application.Test01_Operator" />
-        <item itemvalue="Application.Test05_DataType" />
-        <item itemvalue="Application.HelloWorld" />
-        <item itemvalue="Application.Test02_String" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +184,9 @@
       <workItem from="1636527906179" duration="410000" />
       <workItem from="1636528703644" duration="15645000" />
       <workItem from="1636547502778" duration="231000" />
-      <workItem from="1636547955677" duration="24978000" />
+      <workItem from="1636547955677" duration="25609000" />
+      <workItem from="1636941589163" duration="3024000" />
+      <workItem from="1636958091947" duration="12988000" />
     </task>
     <task id="LOCAL-00001" summary="study Scala in day 1">
       <created>1636547175860</created>
@@ -206,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636636340929</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="study Scala in day 3">
+      <created>1636728868950</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1636728868950</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +237,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="study Scala in day 1" />
     <MESSAGE value="study Scala in day 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="study Scala in day 2" />
+    <MESSAGE value="study Scala in day 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="study Scala in day 3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2360" y="114" key="#Project_Structure" timestamp="1636547726469">
@@ -269,67 +280,67 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2724" y="245" key="Github.UntrackedFilesDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636549701653" />
-    <state width="1877" height="231" key="GridCell.Tab.0.bottom" timestamp="1636711659924">
+    <state width="1877" height="212" key="GridCell.Tab.0.bottom" timestamp="1636972178553">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1892" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636528317786" />
-    <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636711659924" />
-    <state width="1877" height="231" key="GridCell.Tab.0.center" timestamp="1636711659924">
+    <state width="1877" height="212" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636972178553" />
+    <state width="1877" height="212" key="GridCell.Tab.0.center" timestamp="1636972178552">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1892" height="243" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636528317786" />
-    <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636711659924" />
-    <state width="1877" height="231" key="GridCell.Tab.0.left" timestamp="1636711659924">
+    <state width="1877" height="212" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636972178552" />
+    <state width="1877" height="212" key="GridCell.Tab.0.left" timestamp="1636972178552">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1892" height="243" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636528317786" />
-    <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636711659924" />
-    <state width="1877" height="231" key="GridCell.Tab.0.right" timestamp="1636711659924">
+    <state width="1877" height="212" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636972178552" />
+    <state width="1877" height="212" key="GridCell.Tab.0.right" timestamp="1636972178553">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1892" height="243" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636528317786" />
-    <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636711659924" />
-    <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1636697168405">
+    <state width="1877" height="212" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636972178553" />
+    <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1636968074753">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636697168405" />
-    <state width="1877" height="363" key="GridCell.Tab.1.center" timestamp="1636697168405">
+    <state width="1877" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636968074753" />
+    <state width="1877" height="363" key="GridCell.Tab.1.center" timestamp="1636968074753">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636697168405" />
-    <state width="1877" height="363" key="GridCell.Tab.1.left" timestamp="1636697168404">
+    <state width="1877" height="363" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636968074753" />
+    <state width="1877" height="363" key="GridCell.Tab.1.left" timestamp="1636968074753">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636697168404" />
-    <state width="1877" height="363" key="GridCell.Tab.1.right" timestamp="1636697168405">
+    <state width="1877" height="363" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636968074753" />
+    <state width="1877" height="363" key="GridCell.Tab.1.right" timestamp="1636968074753">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636697168405" />
-    <state width="1877" height="363" key="GridCell.Tab.2.bottom" timestamp="1636697168405">
+    <state width="1877" height="363" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636968074753" />
+    <state width="1877" height="363" key="GridCell.Tab.2.bottom" timestamp="1636968074753">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.2.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636697168405" />
-    <state width="1877" height="363" key="GridCell.Tab.2.center" timestamp="1636697168405">
+    <state width="1877" height="363" key="GridCell.Tab.2.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636968074753" />
+    <state width="1877" height="363" key="GridCell.Tab.2.center" timestamp="1636968074753">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.2.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636697168405" />
-    <state width="1877" height="363" key="GridCell.Tab.2.left" timestamp="1636697168405">
+    <state width="1877" height="363" key="GridCell.Tab.2.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636968074753" />
+    <state width="1877" height="363" key="GridCell.Tab.2.left" timestamp="1636968074753">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.2.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636697168405" />
-    <state width="1877" height="363" key="GridCell.Tab.2.right" timestamp="1636697168405">
+    <state width="1877" height="363" key="GridCell.Tab.2.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636968074753" />
+    <state width="1877" height="363" key="GridCell.Tab.2.right" timestamp="1636968074753">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.2.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636697168405" />
+    <state width="1877" height="363" key="GridCell.Tab.2.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636968074753" />
     <state x="2400" y="180" width="1135" height="708" key="SettingsEditor" timestamp="1636636370645">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="142" y="158" width="1135" height="708" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636528727997" />
     <state x="2400" y="180" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636636370645" />
-    <state x="2472" y="273" key="Vcs.Push.Dialog.v2" timestamp="1636636344969">
+    <state x="2472" y="273" key="Vcs.Push.Dialog.v2" timestamp="1636728874011">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2472" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636636344969" />
+    <state x="2472" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636728874011" />
     <state x="408" y="403" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1636524024987">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
