@@ -41,7 +41,8 @@ object Test13_SimpleFunction {
     val sortedList2 = List(60, 10, 20, 30, 40, 50).sorted(Ordering[Int].reverse)
     println(sortedList2)
 
-    // 5.2 使用sortBy()方法，自然排序(即从小到大升序排序)
+    // 5.2 使用sortBy()方法，传入自定义排序函数逻辑
+    // 自然排序(即从小到大升序排序)
     val sortedList3 = List(60, 10, 20, 30, 40, 50).sortBy((x => x))
     println(sortedList3)
     // 从大到小倒序排序，稍微优雅写法：
@@ -53,8 +54,13 @@ object Test13_SimpleFunction {
     // “最优雅”写法：简写
     val sortedList6 = List(60, 10, 20, 30, 40, 50).sortBy(-_)
     println(sortedList6)
+    // sortBy方法实现了函数柯里化，第一个参数传入被排序数据，第二个参数传入Scala提供的排序规则：正序 or 倒序
+    val listBuildOnTuple = List(("a", 1), ("b", 5), ("c", 3), ("d", 9), ("f", 7))
+    val sortList = listBuildOnTuple.sortBy(tuple => tuple._2)(Ordering[Int].reverse)
+    println(sortList)
 
-    // 5.3 使用sortWith()方法，自然排序(即从小到大升序排序)
+    // 5.3 使用sortWith()方法，传入自定义排序函数逻辑
+    // 自然排序(即从小到大升序排序)
     val sortedList7 = List(60, 10, 20, 30, 40, 50).sortWith((a, b) => a < b)
     println(sortedList7)
     // 简写
@@ -64,5 +70,9 @@ object Test13_SimpleFunction {
     println(sortedList8)
     // 简写
     println(List(60, 10, 20, 30, 40, 50).sortWith(_>_))
+
+    // （6）去重
+    val distinctList = List(60, 10, 20, 30, 40, 50, 20, 30).distinct
+    println(distinctList)
   }
 }

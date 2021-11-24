@@ -98,13 +98,12 @@ object Test02_ForLoop {
 
     // 7.引入变量
     for {i <- 1 to 10
-         j = i + 2}
-    {
+         j = i + 2} {
       println("i == " + i + ", j == " + j)
     }
 
     // 等价于
-    for (i <- 1 to 10){
+    for (i <- 1 to 10) {
       val j = i + 2
       println("i == " + i + ", j == " + j)
     }
@@ -113,15 +112,15 @@ object Test02_ForLoop {
     println("============================")
 
     // 练习：打印等腰三角形
-    for (i <- 1 to 9){
-      println((" ") * (9 -i) + ("*" * (2 * i -1)))
+    for (i <- 1 to 9) {
+      println((" ") * (9 - i) + ("*" * (2 * i - 1)))
     }
     // 简写
-     for {i <- 1 to 9
-          spaces = 9 - i
-          stars = 2 * i - 1} {
-       println((" ") * spaces + ("*" * stars))
-     }
+    for {i <- 1 to 9
+         spaces = 9 - i
+         stars = 2 * i - 1} {
+      println((" ") * spaces + ("*" * stars))
+    }
 
     println("============================")
 

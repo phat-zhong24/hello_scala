@@ -92,5 +92,20 @@ object Test01_ImmutableArray {
     // 5.4 归约计算
     // 归约计算 简写
 
+    println("-----------------------------------------------------")
+
+    val arrayBuildOnMap = Array(("Hello", 4), ("Scala", 3), ("Hbase", 2), ("kafka", 1))
+
+    // 6. 数组 转换成 List
+    val list = arrayBuildOnMap.toList
+    println(list)
+
+    // 7. 数组 转换成 Map
+    val map = arrayBuildOnMap.toMap
+    println(map)
+
+    // 8. 数组 转换成 Set
+    val set = arrayBuildOnMap.toSet
+    println(set)
   }
 }

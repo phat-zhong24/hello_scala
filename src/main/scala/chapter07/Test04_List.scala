@@ -91,5 +91,21 @@ object Test04_List {
     // 归约计算 简写
     println(list14.reduce(_-_))
 
+    println("-----------------------------------------------------------------")
+
+    val listBuildOnMap = List(("Hello", 4), ("Scala", 3), ("Hbase", 2), ("kafka", 1))
+
+    // 6. List 转换成 数组
+    val array = listBuildOnMap.toArray
+    println(array.mkString(", "))
+
+    // 7. List 转换成 Map
+    val map = listBuildOnMap.toMap
+    println(map)
+
+    // 8. List 转换成 Set
+    val set = listBuildOnMap.toSet
+    println(set)
+
   }
 }

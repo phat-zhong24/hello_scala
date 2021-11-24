@@ -73,5 +73,21 @@ object Test06_ImmutableSet {
     println(set11.reduce((a, b) => a - b))
     // 归约计算 简写
     println(set11.reduce(_-_))
+
+    println("-------------------------------------------------------------")
+
+    val setBuildOnMap = Set(("Hello", 4), ("Scala", 3), ("Hbase", 2), ("kafka", 1))
+
+    // 7. Set 转换成 数组
+    val array = setBuildOnMap.toArray
+    println(array.mkString(", "))
+
+    // 8. Set 转换成 Map
+    val map = setBuildOnMap.toMap
+    println(map)
+
+    // 9. Set 转换成 List
+    val list = setBuildOnMap.toList
+    println(list)
   }
 }
