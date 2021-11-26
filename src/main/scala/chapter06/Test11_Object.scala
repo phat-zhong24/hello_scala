@@ -15,6 +15,12 @@ object Test11_Object {
 
     val db1 = DB()
     db1.printInInfo()
+
+    println("➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢➢")
+
+    // 使用匹配模式声明创建对象 (好处：额外做了变量声明和赋值) (注意：要使用匹配模式声明创建对象，就必须实现unapply方法)
+    val DB(dbName) = DB("Mike")
+    println(s"name:$dbName")
   }
 }
 
@@ -37,6 +43,14 @@ object DB {
   def apply(name: String): DB = new DB(name)
 
   def apply(): DB = new DB("Neo4j")
+
+  def unapply(db: DB): Option[String] = {
+    if (db == null) {
+      None
+    } else {
+      Some(db.name)
+    }
+  }
 }
 
 // 伴生对象：

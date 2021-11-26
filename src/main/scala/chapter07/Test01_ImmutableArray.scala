@@ -10,6 +10,12 @@ object Test01_ImmutableArray {
     // val arr2: Array[String] = Array.apply("aaa", "bbb", "ccc")
     val arr2: Array[String] = Array("aaa", "bbb", "ccc")
 
+    // 1.3 使用匹配模式声明创建数组 (好处：额外做了变量声明和赋值)
+    val Array(a, b, _*) = Array(1, 3, 5, 7, 9)
+    val Array(e, f, _*) = Array(1, "fff", 5, 7, "jjj")
+    println(a + b)
+    println(s"e = $e, f = $f")
+
     println("-----------------------------------------------------")
 
     // 2. 赋值or修改数组

@@ -13,6 +13,20 @@ object Test04_List {
     println(list1)
     println(list2)
     println(list3)
+    // 1.3 基于一个已有元素的现成List，调用::()方法创建
+    val listBuildOnOtherList1 = 60 :: 50 :: 40 :: List()
+    val listBuildOnOtherList2 = 60 :: 50 :: 40 :: List(10, 20, 30)
+    println(listBuildOnOtherList1)
+    println(listBuildOnOtherList2)
+    // 1.4 使用匹配模式声明创建 (好处：额外做了变量声明和赋值)
+    // 1.4.1 使用匹配模式声明创建
+    val List(a, b, _*) = List(1, 3, 5, 7, 9)
+    val List(e, f, _*) = List(1, "fff", 5, 7, "jjj")
+    println(a + b)
+    println(s"e = $e, f = $f")
+    // 1.4.2 使用匹配模式和::()方法声明创建
+    val first :: second :: rest = List(10, 20, 30, 40, 50)
+    println(s"first = $first, second = $second, rest = $rest")
 
     println("-----------------------------------------------------------------")
 

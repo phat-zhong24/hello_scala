@@ -22,24 +22,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df8f75e8-1b26-46b0-ba83-70dc0b8d925e" name="Default Changelist" comment="study Scala in day 7">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/Test00_Range.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/Test14_HighLevelFunction_Map.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/Test15_HighLevelFunction_Reduce.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/Test16_practice_CommonWordCount.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/Test17_practice_ComplexWordCount.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/Test18_Queue.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/Test19_ParallelOperation.scala" afterDir="false" />
+    <list default="true" id="df8f75e8-1b26-46b0-ba83-70dc0b8d925e" name="Default Changelist" comment="study Scala in day 8">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/Test01_PatternMatchBase.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/Test02_MatchGuard.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/Test03_MatchType.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/Test04_PatternMatchInCreate.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/Test05_MatchTupleExtend.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/Test06_MatchObject.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/Test07_MatchCaseClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/Test08_PartialFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter09/Test01_Exception.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter04/Test02_ForLoop.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chapter04/Test02_ForLoop.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter04/Test03_WhileLoop.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chapter04/Test03_WhileLoop.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter01/HelloWorld.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chapter01/HelloWorld.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter06/Test11_Object.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chapter06/Test11_Object.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/chapter07/Test01_ImmutableArray.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chapter07/Test01_ImmutableArray.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/chapter07/Test04_List.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chapter07/Test04_List.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter07/Test06_ImmutableSet.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chapter07/Test06_ImmutableSet.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter07/Test08_ImmutableMap.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chapter07/Test08_ImmutableMap.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter07/Test11_CommonOperation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chapter07/Test11_CommonOperation.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter07/Test13_SimpleFunction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chapter07/Test13_SimpleFunction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter07/Test10_Tuple.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chapter07/Test10_Tuple.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,13 +99,13 @@
     <property name="scala_project_settings_configurable.last_selected_tab_index" value="7" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Test00_Range">
-    <configuration name="Test00_Range" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="chapter07.Test00_Range" />
+  <component name="RunManager" selected="Application.Test08_PartialFunction">
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="chapter01.HelloWorld" />
       <module name="hello_scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter07.*" />
+          <option name="PATTERN" value="chapter01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test02_FunctionParameter" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="src.main.scala.chapter05.Test02_FunctionParameter" />
+    <configuration name="Test01_Exception" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="chapter09.Test01_Exception" />
       <module name="hello_scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.main.scala.chapter05.*" />
+          <option name="PATTERN" value="chapter09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test13_SimpleFunction" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="src.main.scala.chapter07.Test13_SimpleFunction" />
+    <configuration name="Test04_PatternMatchInCreate" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="chapter08.Test04_PatternMatchInCreate" />
       <module name="hello_scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.main.scala.chapter07.*" />
+          <option name="PATTERN" value="chapter08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test18_Queue" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="src.main.scala.chapter07.Test18_Queue" />
+    <configuration name="Test05_MatchTupleExtend" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="chapter08.Test05_MatchTupleExtend" />
       <module name="hello_scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.main.scala.chapter07.*" />
+          <option name="PATTERN" value="chapter08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test19_ParallelOperation" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="src.main.scala.chapter07.Test19_ParallelOperation" />
+    <configuration name="Test08_PartialFunction" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="chapter08.Test08_PartialFunction" />
       <module name="hello_scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.main.scala.chapter07.*" />
+          <option name="PATTERN" value="chapter08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,26 +165,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test00_Range" />
-        <item itemvalue="Application.Test19_ParallelOperation" />
-        <item itemvalue="Application.Test02_FunctionParameter" />
-        <item itemvalue="Application.Test13_SimpleFunction" />
-        <item itemvalue="Application.Test18_Queue" />
+        <item itemvalue="Application.Test08_PartialFunction" />
+        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.Test01_Exception" />
+        <item itemvalue="Application.Test05_MatchTupleExtend" />
+        <item itemvalue="Application.Test04_PatternMatchInCreate" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +205,8 @@
       <workItem from="1636547955677" duration="25609000" />
       <workItem from="1636941589163" duration="3024000" />
       <workItem from="1636958091947" duration="67870000" />
-      <workItem from="1637324791983" duration="138261000" />
+      <workItem from="1637324791983" duration="139003000" />
+      <workItem from="1637805358325" duration="35223000" />
     </task>
     <task id="LOCAL-00001" summary="study Scala in day 1">
       <created>1636547175860</created>
@@ -267,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637674077530</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="study Scala in day 8">
+      <created>1637759353553</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1637759353553</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +297,8 @@
     <MESSAGE value="study Scala in day 5" />
     <MESSAGE value="study Scala in day 6" />
     <MESSAGE value="study Scala in day 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="study Scala in day 7" />
+    <MESSAGE value="study Scala in day 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="study Scala in day 8" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2360" y="114" key="#Project_Structure" timestamp="1636547726469">
@@ -301,10 +306,10 @@
     </state>
     <state x="440" y="114" key="#Project_Structure/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636527980001" />
     <state x="2360" y="114" key="#Project_Structure/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636547726469" />
-    <state x="690" y="295" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1637636597221">
+    <state x="690" y="295" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1637840721209">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="690" y="295" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1637636597221" />
+    <state x="690" y="295" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1637840721209" />
     <state x="2610" y="295" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1637329122886" />
     <state x="2334" y="195" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636549068243">
       <screen x="1920" y="0" width="1920" height="1080" />
@@ -348,33 +353,33 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2724" y="245" key="Github.UntrackedFilesDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636549701653" />
-    <state width="1877" height="276" key="GridCell.Tab.0.bottom" timestamp="1637759001598">
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom" timestamp="1637858233954">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1892" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636528317786" />
     <state width="1877" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1637164323391" />
-    <state width="1877" height="276" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1637759001598" />
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1637858233954" />
     <state width="1877" height="114" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1637330190629" />
-    <state width="1877" height="276" key="GridCell.Tab.0.center" timestamp="1637759001598">
+    <state width="1877" height="203" key="GridCell.Tab.0.center" timestamp="1637858233954">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1892" height="243" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636528317786" />
     <state width="1877" height="321" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1637164323391" />
-    <state width="1877" height="276" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1637759001598" />
+    <state width="1877" height="203" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1637858233954" />
     <state width="1877" height="114" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1637330190629" />
-    <state width="1877" height="276" key="GridCell.Tab.0.left" timestamp="1637759001598">
+    <state width="1877" height="203" key="GridCell.Tab.0.left" timestamp="1637858233954">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1892" height="243" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636528317786" />
     <state width="1877" height="321" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1637164323391" />
-    <state width="1877" height="276" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1637759001598" />
+    <state width="1877" height="203" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1637858233954" />
     <state width="1877" height="114" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1637330190629" />
-    <state width="1877" height="276" key="GridCell.Tab.0.right" timestamp="1637759001598">
+    <state width="1877" height="203" key="GridCell.Tab.0.right" timestamp="1637858233954">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1892" height="243" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636528317786" />
     <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1637164323391" />
-    <state width="1877" height="276" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1637759001598" />
+    <state width="1877" height="203" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1637858233954" />
     <state width="1877" height="114" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1637330190629" />
     <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1637668336098">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -422,11 +427,11 @@
     <state x="142" y="158" width="1135" height="708" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1636528727997" />
     <state x="2400" y="180" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636636370645" />
     <state x="480" y="180" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1637756231414" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1637674082973">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1637759357639">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="2472" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1637070160418" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1637674082973" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1637759357639" />
     <state x="408" y="403" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1636524024987">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -444,10 +449,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2536" y="250" key="run.anything.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1636713168436" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1637756405519">
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1637857272867">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1637064246182" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1637756405519" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1637857272867" />
   </component>
 </project>

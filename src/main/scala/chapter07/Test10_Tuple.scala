@@ -16,16 +16,29 @@ object Test10_Tuple {
     val tuple3: (String, Int, Double, Boolean) = ("aaa", 111, 222.0, true)
     println(tuple3)
 
-    // 骚操作: 创建多层嵌套二元组
+    // 1.4 骚操作: 创建多层嵌套二元组
     val nestTuple1 = "aaa".->(111).->(222.0).->(true).->("bbb")
     println(nestTuple1)
     // 简写：省略小括号
     val nestTuple2 ="aaa" -> 111 -> 222.0 -> true -> "bbb"
     println(nestTuple2)
 
-    // 创建随意的多层嵌套元组
+    // 1.5 创建随意的多层嵌套元组
     val nestTuple3 = ("aaa", 111, (222.0, true, 333.0f, ("bbb", false)))
     println(nestTuple3)
+
+    // 1.6 使用匹配模式声明创建元组 (好处：额外做了变量声明和赋值)
+    // 还可以这样创建元组和获取元组元素
+    val (a, b): (Int, String) = (1, "hello")
+    println(a + b)                 // 1hello
+    println((a, b)._1 + (a, b)._2) // 1hello
+
+    val (x, y): (Int, Int) = (2, 3)
+    println(x + y)                 // 5
+    println((x, y)._1 + (x, y)._2) // 5
+
+    val (foo, bar, foobar) = ("福", "报", 996)
+    println(s"$foo$bar = $foobar") // 福报 = 996
 
     println("-----------------------------------------------------------")
 
