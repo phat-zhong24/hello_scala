@@ -11,6 +11,8 @@ object Test12_Trait {
     english.read("GoodMorning")
     english.upgrade()
     english.exam(english.name)
+
+    println(english.apply(999))
   }
 }
 
@@ -49,8 +51,8 @@ trait Exam {
   def exam(name: String): Unit
 }
 
-// 定义一个实现类
-class English extends Subject with Read with Update {
+// 定义一个实现类                                     // 还可以这样继承一个极抽象的特质
+class English extends Subject with Read with Update with (Int => String) {
   // 重写冲突的属性
   override val name: String = "phat"
 
@@ -71,6 +73,10 @@ class English extends Subject with Read with Update {
 
   override def upgrade(): Unit = {
     println("Upgrading course content......")
+  }
+
+  override def apply(v1: Int): String = {
+    v1.toString
   }
 }
 
